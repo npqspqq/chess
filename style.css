@@ -1,0 +1,71 @@
+.square{
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+.gray{
+    background-color: gray;
+}
+.brown{
+    background-color: brown;
+}
+.white{
+    fill: white;
+}
+.black{
+    fill: black;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+}
+svg{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    position: relative;
+    z-index: -9;
+}
+path{
+    position: relative;
+    z-index: -10;
+}
+.piece{
+    position: relative;
+    z-index: 10;
+}
+.selected{
+    background-color: cadetblue;
+}
+.light-green{
+    background-color: rgb(193, 255, 131);
+}
+.dark-green{
+    background-color: rgb(52, 213, 52);
+}
+.red{
+    background-color: red;
+}
+#bottom-section{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 100px;
+    background-color: lightgray;
+}
+.button{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: solid black 3px;
+    margin-top: 25px;
+    font-size: 40px;
+    text-align: center;
+
+    
+}
+#box{
+    width: 400px;
+    margin: auto;
+    
+}
